@@ -1,0 +1,30 @@
+---
+title: "my_first_rmarkdown"
+author: "EMG"
+date: "2023-01-17"
+output:
+  html_document:
+    df_print: paged
+---
+
+Here is some text
+
+```{r, echo=FALSE}
+x=c(1,2,3)
+y=c(4,5,6)
+plot(x,y)
+```
+
+
+here are my results
+
+
+```{r}
+plot(y,x)
+```
+
+here's some more
+
+
+
+
