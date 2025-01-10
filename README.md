@@ -3,6 +3,8 @@
 
 #### Course GitHub site: https://github.com/MSCI-709-2025
 
+#### Course GitHub classroom: https://classroom.github.com/classrooms/194386745-msci-709-2025
+
 #### Unit 1 GitHub repository: https://github.com/MSCI-709-2025/unit_1_software
 
 Introductions to the major software that we will use in this class.
