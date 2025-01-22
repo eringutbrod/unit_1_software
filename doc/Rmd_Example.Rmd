@@ -28,7 +28,7 @@ The output will appear inline in the rendered document right after the code chun
 plot(x,y)
 ```
 
-There are plenty of other code chunk instructions you can inlcude in the curly braces to customize your `.Rmd` file. 
+There are plenty of other code chunk instructions you can include in the curly braces to customize your `.Rmd` file. 
 
 ***
 
@@ -41,11 +41,11 @@ My family's fave pizza toppings:
 
 ***
 
-My pet's in order of how much I like them:
+My pet's in order of how much mischievous they are:
 
-1. Nana (dog)
-2. Wheezer (cat)
-3. Napoleon (jerkface)
+1. Clyde (dog-cat)
+2. Bonnie (cat)
+3. Nana (dog-cat)
 
 ***
 
@@ -53,4 +53,4 @@ I can italicize text like *this* or like _this_ and I can embolden text like **t
 
 ***
 
-superscript^2^ and subscript~2~
+superscript^23^ and subscript~2~

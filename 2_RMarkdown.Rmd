@@ -1,5 +1,5 @@
 ---
-title: "1.2: RMarkdown"
+title: '1.2: RMarkdown'
 output: html_document
 ---
 
@@ -29,7 +29,7 @@ library(rmarkdown)
 
 ### Create an RMarkdown file
 
-To create an RMarkdown file, open RStudio and in the toolbar at the top of the screen, go to `File -> New File -> RMarkdown...`. From there you'll create an RMarkdown Document (which is selected by default on the left). You can edit the title and author fields, if you want, or leave them as is. You'll see those fields right at the top of your file and will be able to edit them whenever you want. You can also choose what type of file you want the RMarkdown file to write to. Let's keep it as .html for now, but .pdf can be useful too. You can also change this whenver you want after the file is created. Press `OK` and you'll see your fresh new .Rmd file. 
+To create an RMarkdown file, open RStudio and in the toolbar at the top of the screen, go to `File -> New File -> RMarkdown...`. From there you'll create an RMarkdown Document (which is selected by default on the left). You can edit the title and author fields, if you want, or leave them as is. You'll see those fields right at the top of your file and will be able to edit them whenever you want. You can also choose what type of file you want the RMarkdown file to write to. Let's keep it as .html for now, but .pdf can be useful too. You can also change this whenever you want after the file is created. Press `OK` and you'll see your fresh new .Rmd file. 
 
 
 You can test the .Rmd file by compiling it to .html. To compile your .Rmd file into a .html document, you should press the Knit button in the taskbar:
@@ -52,7 +52,7 @@ There are special characters you can use or parameters you can set to customize 
 
 ### The YAML header
 
-At the top of any RMarkdown script is a YAML header section enclosed by ---. You can control many “whole document” settings by tweaking the parameters of the YAML header. YAML originally stood for "Yet Another Markup Language", but programmers can be goofballs, and now YAML officially stands for "YAML Ain't Markup Language". Don't get hung up on it. YAML is a stand alone language, similar to JSON, that is human-readable. We use the YAML header to provide a handful of key-value pairs for our .Rmd file. 
+At the top of any RMarkdown script is a YAML header section enclosed by `---`. You can control many “whole document” settings by tweaking the parameters of the YAML header. YAML originally stood for "Yet Another Markup Language", but programmers can be goofballs, and now YAML officially stands for "YAML Ain't Markup Language". Don't get hung up on it. YAML is a stand alone language, similar to JSON, that is human-readable. We use the YAML header to provide a handful of key-value pairs for our .Rmd file. 
 
 By default the YAML header includes a title, author, date and the file type you want to output to. Many other options are available for different functions and formatting, but we aren't going to dive deep into RMarkdown functionality for this class. Rules in the header section will alter the whole document. 
 
@@ -101,12 +101,13 @@ The most important set of options controls if your code block is executed and wh
 *   `message = FALSE` or `warning = FALSE` prevents messages or warnings 
     from appearing in the finished file.
 
-*   `results = 'hide'` hides printed output; `fig.show = 'hide'` hides
+*   `results = 'hide'` hides printed output
+
+*   `fig.show = 'hide'` hides
     plots.
 
 *   `error = TRUE` causes the render to continue even if code returns an error.
-    This is rarely something you'll want to include in the final version
-    of your report, but can be very useful if you need to debug exactly
+    This can be  useful if you need to debug exactly
     what is going on inside your `.Rmd`. It's also useful if you're teaching R
     and want to deliberately include an error. The default, `error = FALSE` causes 
     knitting to fail if there is a single error in the document.
@@ -131,7 +132,7 @@ It's customary to refer to code directly inline using single grave accents so th
 For example:
 
 ```{r}
-teeth_lost_per_kid = c(16, 1, 0) # Evee, Hazel, Nell
+teeth_lost_per_kid = c(16, 16, 1) # Evee, Hazel, Nell
 ```
 
 Our important data is stored in the variable `teeth_lost_per_kid` and I can use that data to calculate the total number of times I've played tooth fairy, which is: `r sum(teeth_lost_per_kid)`. Hooray!
@@ -184,7 +185,7 @@ Yihui Xie, J. J. Allaire, Garrett Grolemund
 https://bookdown.org/yihui/rmarkdown/
 
 R Markdown Cheat Sheet
-https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+https://rmarkdown.rstudio.com/lesson-15.HTML
 
 https://ourcodingclub.github.io/tutorials/rmarkdown/
 

@@ -1,5 +1,5 @@
 ---
-title: "1.1: R and RStudio"
+title: '1.1: R and RStudio'
 output: html_document
 ---
 
