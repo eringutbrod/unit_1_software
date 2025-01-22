@@ -50,7 +50,7 @@ print(), c(), typeof(), length(), seq(), rep(), matrix(), class(), array(), list
 
 Assigned: 1/23/25
 
-Invitation link: https://classroom.github.com/a/02ZJMTW6
+Invitation link: https://classroom.github.com/a/orwkPs2X
 
 DUE: 1/30/25
 
