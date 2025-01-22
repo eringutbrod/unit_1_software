@@ -256,7 +256,7 @@ Now that you can create your own repository (project) from scratch on GitHub, it
 
 Let's say you found some data/models/ etc. on GitHub that's part of a public repository owned by a person you don't know. That person has a public repo because they want people to have access to their model. It is useful to pull files from this existing repo into our own github profile. Then we can work with it in RStudio and send out our changes to our own copy of this repository on our own GitHub repository. 
 
-This is especially relevant for our class, because **I have created tutorials and code for each of the class modules and hosted them in repositories on GitHub:** <https://github.com/MSCI-709-2023>
+This is especially relevant for our class, because **I have created tutorials and code for each of the class modules and hosted them in repositories on GitHub:** <https://github.com/MSCI-709-2025>
 
 This type of work flow requires the following steps:
 
@@ -270,13 +270,15 @@ This is just like the process we just did with our Hello world repo, except that
 
 As you can imagine, people you don't know usually don't want you to be able to update their files without them knowing it. That's why you can't actually change a file in a "master branch" unless you've been added as a collaborator by the "owner". So instead of using and changing their original files, you need to `Fork` their repo first. This essentially makes a copy of all information in their repo, and stores it as your own.
 
-Go to the course GitHub page <https://github.com/MSCI-709-2023> and Fork the first module `unit_1_getting_started` to your own GitHub profile:
+Go to the course GitHub page <https://github.com/MSCI-709-2025> and Fork the first module `unit_1_getting_started` to your own GitHub profile:
 
--  Go to the course GitHub page <https://github.com/MSCI-709-2023>
+-  Go to the course GitHub page <https://github.com/MSCI-709-2025>
 -  Click on the `unit_1_getting_started` repo
 -  Press 'Fork' in the top right corner
 -  Now navigate back to your github account (if you click on your user picture in the top right,
 it'll bring down a menu where you can select "Your repositories"), and you'll see the forked repo exists in your world where you can mess with it
+
+![](doc/github_fork_schematic.png){width=60%}
 
 #### CLONE
 
@@ -309,7 +311,7 @@ Cloud storage and version control!
 
 ## Course Workflow
 
-Now that you are set up with GitHub and you have found our class GitHub repository: https://github.com/MSCI-758 you can follow the class coding tutorials very easily. Whenever we start a new unit, **you should fork the associated unit repo to your own GitHub profile and Clone it onto your local computer.** From there you have access to all of the files we use in the tutorial: data, scripts, figures, readings etc. During class, create your own `.R` or `.Rmd` file and type the code along with me, but save the file with your initials at the end of the file name. That way you know that it's the versions that YOU created while you were following along with the course. You can take your own notes / comments directly in your `.R` or `.Rmd` files and reference them later. You'll also have the original tutorials that I created for you to reference as well. Commit and push your changes back into your repo as you go.
+Now that you are set up with GitHub and you have found our class GitHub organization: <https://github.com/MSCI-709-2025> you can follow the class coding tutorials very easily. Whenever we start a new unit, **you should fork the associated unit repo to your own GitHub profile and Clone it onto your local computer.** From there you have access to all of the files we use in the tutorial: data, scripts, figures, readings etc. During class, create your own `.R` or `.Rmd` file and type the code along with me, but save the file with your initials at the end of the file name. That way you know that it's the versions that YOU created while you were following along with the course. You can take your own notes / comments directly in your `.R` or `.Rmd` files and reference them later. You'll also have the original tutorials that I created for you to reference as well. Commit and push your changes back into your repo as you go.
 
 When you are working, open up the `.Rmd` file associated with the lesson tutorial that we are working through that day. Also open a new `.Rmd` or `.R` file in the RStudio Project linked to that unit's repo on your computer to type the code we are writing along with the tutorial. You can toggle between the RStudio script that you are writing in RStudio and the typed-up tutorial that you knitted from the `.Rmd` file I created.
 
