@@ -70,9 +70,9 @@ When homebrew is finished installing, enter the following to install Git:
 
 Follow any instructions in the terminal window, you may need to enter your Mac's password or agree to questions by typing yes.
 
-### Set Git email and username on your local computer
+### Set GitHub email and username on your local computer
 
-The first thing you must do when you install Git is to set your user name and email address. This is important because every Git commit uses this information. You only need to do this once if you pass the --global option, because then Git will always use that information for anything you do on that system. If you want to override this with a different name or email address for specific projects, you can run the command without the --global option when you’re in that project.
+The first thing you must do after you install Git is to associate it with your GitHub user name and email address. This is important because every Git push / pull uses this information. You only need to do this once if you pass the --global option, because then Git will always use that information for anything you do on that system. If you want to override this with a different name or email address for specific projects, you can run the command without the --global option when you’re in that project.
 
 Do this by opening the shell on your computer. On a Mac computer, go to `Applications -> Utilities -> Terminal`. On a Windows machine, open up `Git Bash` (you can find it by going to your Start Menu and typing `Git Bash` into the search bar and clicking on it). **Another way for Mac or Windows users to open their shell is through RStudio.** In the lower-left hand pane of RStudio, switch from the `Console` tab to the `Terminal` tab. This is equivalent to the Mac Terminal, and on Windows, once Git is installed, this should default to the Git Bash Shell.
 
