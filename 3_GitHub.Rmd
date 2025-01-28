@@ -138,7 +138,7 @@ gitcreds_set()
 #### What is a repository?
 You can think of a repository (aka a repo) as a "master folder", everything associated with a specific project should be kept in a repo for that project. Repos can have folders within them to keep your project files organized.
 
-You will have a local copy (on your computer) and an online copy (on GitHub) of all the files in the repository.
+You will have a local copy (on your computer) and an online copy (on GitHub) of all the files (or the subset you choose) in the repository.
 
 #### The workflow
 The GitHub workflow can be summarised by the "commit-pull-push" mantra.
@@ -343,9 +343,9 @@ Once you have confirmed that you want to add someone as a collaborator:
 
 -  Figure out what name or username or email they have associated with their github account
 -  While in the github repo that you want to add them to as a collaborator, click on 'Settings' 
--  In the left-hand menu, click 'Manage Aaccess'
--  In the center of the page, click 'Invite Collaborators'
--  Enter their name(s) (any of the above to search)
+-  In the left-hand menu, under 'Access' click 'Collaborators'
+-  In the center of the page, click 'Add People'
+-  Enter their GitHub username(s) 
 -  When you find the right one, click 'Add Collaborator'
 
 Now your invited collaborators can clone and push/pull directly to this repository, and you can both work on the same
